@@ -45,7 +45,7 @@ class Song
     found_song = self.find_by_name(name)
     return found_song if found_song
     
-    new_song = self.create_by_name(name)
+    return new_song = self.create_by_name(name)
     # return new_song
   end
   
